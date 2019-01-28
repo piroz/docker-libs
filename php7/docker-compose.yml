@@ -1,0 +1,14 @@
+version: "2"
+services:
+  cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cli
+    volumes:
+      - ./app:/app
+    tty: true
+    privileged: true
+    stdin_open: true
+    cap_add:
+      - SYS_ADMIN
