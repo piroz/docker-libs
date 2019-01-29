@@ -1,4 +1,4 @@
-FROM php:7.3.1-cli-stretch
+FROM php:7-cli-stretch
 
 ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV DEBCONF_NOWARNINGS yes
