@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mysql5:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mysql5
+    tty: true
+    stdin_open: true

@@ -9,3 +9,5 @@ services:
       - ./app:/app
     tty: true
     stdin_open: true
+    ports:
+      - 3306:3306
