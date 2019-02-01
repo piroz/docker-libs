@@ -7,3 +7,5 @@ services:
     container_name: mysql5
     tty: true
     stdin_open: true
+    ports:
+      - 3306:3306
